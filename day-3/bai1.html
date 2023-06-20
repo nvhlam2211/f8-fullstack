@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .first{
+            flex-basis: 70%;
+        }
+        .second{
+            width:120px;
+            height:35px;
+            background-color:rgb(77, 218, 218);
+            border-color: rgb(77, 218, 218);
+            color:white;
+        }
+        .three{
+            flex-basis: 30%;
+        }
+        #main{
+            display:flex;
+        }
+        .print{
+            width: 500px;
+        }
+        .message{
+            width:500px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <div>
+            <h1>CONTACT US</h1>
+        </div>
+        <div id="main">
+            <div class="three">
+                <h2>Contact Info</h2>
+                <p><i class="fa-solid fa-location-dot"></i>321 Awesome Street New York,NY 17022</p>
+                <p><i class="fa-regular fa-envelope"></i>info@companyname.com</p>
+                <p><i class="fa-solid fa-phone"></i>+1 800 123 1234</p>   
+            </div>
+            <div class="first">
+                <h2>Having Any Query! Or Book an appointment</h2>
+                <p><input class="print"type="text" placeholder="Your Name"></p>
+                <p><input class="print" type="text" placeholder="Your Email"></p>
+                <p><input class="print"type="text" placeholder="Subject"></p>
+                <textarea class="message" name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea><br>
+                <button class="second">Send Message</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

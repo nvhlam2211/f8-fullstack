@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .all{
+            display: flex;
+        }
+        .all1{
+            display: flex;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="">Username : </label>
+            <input type="name">
+        </div>
+        <br>
+        <div>
+            <label for="">Password : </label>
+            <input type="password">
+        </div>
+        <br>
+        <div>
+            <label for="">City of Employment : </label>
+            <input type="name">
+        </div>
+        <br>
+        <div>
+            <label for="">Web server: </label>
+           <select name="server" id="server">
+            <option value="">-Choose a server- </option>
+           </select>
+        </div>
+        <br>
+        <div class="all">
+           <div>
+            <label for="">Please specify your role: </label>
+           </div>
+            <div>
+            <p><label for=""><input type="radio" name="role">Admin</label></p>
+            <p><label for=""><input type="radio" name="role">Engineer</label></p>
+            <p><label for=""><input type="radio" name="role">Manager</label></p>
+            <p><label for=""><input type="radio" name="role">Guest</label></p>
+            </div>
+        </div>
+        <div class="all1">
+            <div><label for="">Single Sign-on to the following: </label></div>
+            <div>
+                <p><label for=""><input type="checkbox">Mail</label></p>
+                <p><label for=""><input type="checkbox">Payroll</label></p>
+                <p><label for=""><input type="checkbox">Self-service</label></p>
+            </div>
+        </div>
+    </form>
+    <div>
+    <button type="submit">Login</button>
+    <button type="reset">Reset</button>
+    </div>
+</body>
+</html>
