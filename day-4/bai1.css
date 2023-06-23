@@ -1,0 +1,34 @@
+.form-subscribe{
+  background-color:#384858;
+  border-radius: 7px;
+  width: 700px;
+  height: 180px;
+  padding-left: 20px;
+  padding-top: 5px;
+
+}
+.email{
+    width:400x;
+    height: 30px;
+    border-radius: 5px;
+}
+.send-me{
+    width:180px;
+    height: 35px;
+    background-color: yellow;
+    border-radius: 5px;
+}
+.font-title{
+    color: orange;
+}
+.font-p{
+    color: white;
+}
+.form-subscribe:hover .email::placeholder{
+    background: var(--highlight-color);
+    color: orange;
+}
+.form-subscribe:hover .send-me{
+    background: var(--highlight-color);
+    background-color: orange;
+}
