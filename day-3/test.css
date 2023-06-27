@@ -1,0 +1,11 @@
+.first h2~h3 {
+    color: red;
+}
+.last h2~h3{
+    color: green;
+}
+/* thẻ h3 đứng sau thẻ cùng cấp thẻ h2 ngang hàng  */
+.todos input:checked ~ span{
+    color: red;
+    text-decoration:line-through;
+}

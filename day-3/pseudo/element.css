@@ -1,0 +1,29 @@
+/* .title::before{
+    content: 'ASC';
+}
+.title::after{
+    content: 'A';
+} */
+/* .title::after{
+    content:"";
+    display:block;
+    height:4px;
+    width:50px;
+    background: red;
+}
+p::first-line{
+    color:red;
+}
+p::first-letter{
+    font-weight: bold;
+    font-size: 2rem;
+}
+p::selection{
+    color:orange;
+    background: black;
+} */
+/* selection bôi đen tạo màu */
+.email::placeholder{
+    color:red;
+    font-style: italic;
+}
