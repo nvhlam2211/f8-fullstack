@@ -1,0 +1,127 @@
+h2{
+    color: #3f3424;
+    font-family: "Asap", sans-serif;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.knot{
+    margin-left: 40px;
+}
+.font{
+    font-family: "Asap", sans-serif;
+}
+button{
+    width: 130px;
+    height: 50px;
+    margin-left: 10px;
+    color: #3f3424; 
+    font-family: "Asap", sans-serif;
+    font-size: 11px;
+    background-color: rgba(192, 192, 192, 0.255);
+    border: 1px solid rgba(192, 192, 192, 0.255);
+    border-radius: 35px;
+}
+button > span{
+    font-style: italic;
+}
+button:hover{
+    background-color: rgba(165, 130, 42, 0.951);
+    color: #fff;
+}
+.district-two{
+    width: 350px;
+    margin-left: 50px;
+    border-radius: 5px;
+    box-shadow: inset;
+}
+.district-nine{
+    width: 350px;
+    height: 197px;
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: inset;
+}
+.district-seven{
+    width: 350px;
+    border-radius: 5px;
+    margin-left: 20px;
+    box-shadow: inset;
+}
+.districts{
+    display:flex;
+    margin-top: 20px;
+    position:relative;
+}
+.other-one{
+    width: 350px;
+    height: 240px;
+    margin-left: 50px;
+    border-radius: 5px;
+    box-shadow: inset;
+}
+.other-two{
+    width: 350px;
+    height: 240px;
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: inset;
+}
+.other-three{
+    width: 350px;
+    height: 240px;
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: inset;
+}
+.other-districts{
+    display:flex;
+    margin-top: 20px;
+}
+.nothing{
+    height: 90px;
+}
+.nothing-else{
+    height: 120px;
+}
+.title-one{
+    position:absolute;
+    top:150px;
+    left: 70px;
+    color: #fff;
+    font-family: "Asap", sans-serif;
+}
+.title-two{
+    position:absolute;
+    top:150px;
+    left: 445px;
+    color: #fff;
+    font-family: "Asap", sans-serif;
+}
+.title-three{
+    position:absolute;
+    top:150px;
+    left: 820px;
+    color: #fff;
+    font-family: "Asap", sans-serif;
+}
+.title-four{
+    position:absolute;
+    top:370px;
+    left: 70px;
+    color: #fff;
+    font-family: "Asap", sans-serif;
+}
+.title-five{
+    position:absolute;
+    top:370px;
+    left: 445px;
+    color: #fff;
+    font-family: "Asap", sans-serif;
+}
+.title-six{
+    position:absolute;
+    top:370px;
+    left: 820px;
+    color: #fff;
+    font-family: "Asap", sans-serif;
+}
