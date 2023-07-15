@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+:root {
+    --primary-color: #fff;
+    --icon-color: rgb(82, 152, 237);
+    --transition: all 0.2s linear;
+}
+.burger-menu{
+    width: 100%;
+    height: 730px;
+    background-color: rgb(82, 152, 237);
+    position: relative;
+}
+.title{
+    color: var(--primary-color);
+    position:absolute;
+    top: 50%;
+    right: 10%;
+    font-family: 'Roboto', sans-serif;
+}
+.title p{
+    font-size: 20px;
+}
+span{
+    font-size: 35px;
+}
+h1{
+    font-size: 55px;
+}
+.content{
+    width: 100px;
+    height: 100px;
+    background-color: var(--primary-color);
+    border-bottom-right-radius: 99px;
+}
+input{
+    display: none;
+}
+.fa-bars , .fa-arrow-right{
+    font-size: 30px;
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    color: var(--icon-color);
+}
+.fa-arrow-right{
+    visibility: hidden;
+}
+.info{
+    display: none;
+    padding-left: 70px;
+    padding-top: 50px;
+}
+.info li{
+    list-style: none;
+    width: 130px;
+    height: 30px;
+    margin-top: 15px;
+}
+.info li a{
+    text-decoration: none;
+    display:inline-block;
+    padding: 10px;
+    color: var(--icon-color);
+}
+input[type="checkbox"]:checked ~ label > .fa-bars{
+    opacity: 0;
+}
+input[type="checkbox"]:checked ~ label > .fa-arrow-right{
+    visibility: visible;
+    transition: var(--transition);
+    transform: rotate(180deg);
+}
+input[type="checkbox"]:checked ~ label > .info{
+    display: block;
+    background-color: var(--primary-color);
+    width: 1490px;
+    height: 730px;
+    transition: all 0.5s ease-in;
+}
+.info li:hover a{
+    color: #333;
+    background-color: rgb(250, 250, 250);
+    display:block;
+}
