@@ -1,0 +1,14 @@
+@import "parts/variables";
+@import "parts/root";
+@import "parts/fonts";
+@import "parts/reset";
+@import "parts/mixins";
+@import "parts/base";
+@import "layout/header";
+@import "layout/footer";
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap:wght@100;200&family=Dancing+Script&family=Fira+Sans+Extra+Condensed:wght@100&family=Gasoek+One&family=Inter:wght@400;600;800&family=Manrope:wght@300&family=Nunito+Sans:wght@200&family=Roboto:wght@100&family=Rowdies:wght@700&family=Sofia+Sans:wght@400;600&display=swap');
+
+.container {
+    display: flex;
+}

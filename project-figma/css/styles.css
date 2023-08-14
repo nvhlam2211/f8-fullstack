@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Asap:wght@100;200&family=Dancing+Script&family=Fira+Sans+Extra+Condensed:wght@100&family=Gasoek+One&family=Inter:wght@400;600;800&family=Manrope:wght@300&family=Nunito+Sans:wght@200&family=Roboto:wght@100&family=Rowdies:wght@700&family=Sofia+Sans:wght@400;600&display=swap");
+:root {
+  --grey-1000: #3d3c3c;
+  --grey-900: #515151;
+  --grey-800: #656565;
+  --grey-700: #7a7a7a;
+  --grey-600: #8e8e8e;
+  --grey-500: #a3a3a3;
+  --grey-400: #b7b7b7;
+  --grey-300: #cbcbcb;
+  --grey-200: #e0e0e0;
+  --grey-100: #f4f4f4;
+  --green-1000: #216000;
+  --green-900: #2e8900;
+  --green-800: #46b20f;
+  --green-700: #63db25;
+  --green-600: #81ff41;
+  --green-500: #98ff64;
+  --green-400: #aeff86;
+  --green-300: #c5ffa8;
+  --green-200: #dcffca;
+  --green-100: #f2ffec;
+  --orange-1000: #662400;
+  --orange-900: #8e3300;
+  --orange-800: #b74200;
+  --orange-700: #e05000;
+  --orange-600: #ff6916;
+  --orange-500: #ff8440;
+  --orange-400: #ff9f6a;
+  --orange-300: #ffba94;
+  --orange-200: #ffd5bd;
+  --orange-100: #fff0e7;
+  --main-color: var(--green-800);
+  --content: #2c2c2c;
+  --white: #fff;
+  --max-width: 1440px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.2;
+  color: #2c2c2c;
+  font-family: Inter, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #2c2c2c;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 20px 0;
+}
+
+h1 {
+  font-size: 6.8rem;
+}
+
+h2 {
+  font-style: 5.2rem;
+}
+
+h3 {
+  font-style: 3.8rem;
+}
+
+h4 {
+  font-style: 2.8rem;
+}
+
+h5 {
+  font-style: 2rem;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+.container {
+  display: flex;
+}
+
+/*# sourceMappingURL=styles.css.map */
